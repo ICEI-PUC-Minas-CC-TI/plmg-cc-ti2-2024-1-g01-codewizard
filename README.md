@@ -1,18 +1,18 @@
-# [Nome do projeto]
+# Code Wizard
 
-[Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.]
+Oferecer uma proposta interativa e divertida de aprendizagem
 
 ## Alunos integrantes da equipe
 
-* [Nome completo do aluno 1]
+* Henrique Moura de Sousa Belo
 * [Nome completo do aluno 2]
 * [Nome completo do aluno 3]
 * [Nome completo do aluno 4]
 
 ## Professores responsáveis
 
-* [Nome completo do professor 1]
-* [Nome completo do professor 2]
+* Max
+* Wallyson
 
 ## Instruções de utilização
 
