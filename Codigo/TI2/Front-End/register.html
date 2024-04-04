@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastre-se</title>
+
+   <!-- font awesome cdn link  -->
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Code Wizard..</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="pesquise cursos..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/fotoperfil2.jpg" class="image" alt="">
+         <h3 class="name">Henrique Moura</h3>
+         <p class="role">Estudante</p>
+         <a href="profile.html" class="btn">Ver Perfil</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">cadastre-se</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/fotoperfil2.jpg" class="image" alt="">
+         <h3 class="name">Henrique Moura</h3>
+         <p class="role">Estudante</p>
+         <a href="profile.html" class="btn">Ver Perfil</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>cursos</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>professores</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>entre em contato</span></a>
+   </nav>
+
+</div>
+
+<section class="form-container">
+
+   <form action="" method="post" enctype="multipart/form-data">
+      <h3>Cadastre-se agora</h3>
+      <p>seu nome <span>*</span></p>
+      <input type="text" name="name" placeholder="digite seu nome" required maxlength="50" class="box">
+      <p>seu email <span>*</span></p>
+      <input type="email" name="email" placeholder="digite seu email" required maxlength="50" class="box">
+      <p>sua senha <span>*</span></p>
+      <input type="password" name="pass" placeholder="digite sua senha" required maxlength="20" class="box">
+      <p>confirmar senha <span>*</span></p>
+      <input type="password" name="c_pass" placeholder="confirme sua senha" required maxlength="20" class="box">
+      <p>selecionar foto de perfil <span>*</span></p>
+      <input type="file" accept="image/*" required class="box">
+      <input type="submit" value="cadastre-se agora" name="submit" class="btn">
+   </form>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+   <div class="container-footer">
+      <div class="row-footer">
+        <!-- footer col-->
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#"> Quem somos </a></li>
+            <li><a href=""> nossos serviços </a></li>
+            <li><a href=""> política de privacidade </a></li>
+            <li><a href=""> programa de afiliados</a></li>
+          </ul>
+        </div>
+        <!--end footer col-->
+        <!-- footer col-->
+        <div class="footer-col">
+          <h4>Obter ajuda</h4>
+          <ul>
+            <li><a href="contact.html">FAQ</a></li>
+            <li><a href="contact.html">Quero ser professor</a></li>
+            <li><a href="contact.html">Como utilizar a plataforma</a></li>
+          </ul>
+        </div>
+        <!--end footer col-->
+        <!-- footer col-->
+        <div class="footer-col">
+          <h4>Loja online</h4>
+          <ul>
+            <li><a href="contact.html">Destaques</a></li>
+            <li><a href="contact.html">Catálogo completo</a></li>
+            <li><a href="contact.html">Cadastre-se</a></li>
+            <li><a href="contact.html">Endereço</a></li>
+          </ul>
+        </div>
+        <!--end footer col-->
+        <!-- footer col-->
+        <div class="footer-col">
+          <h4>Inscreva-se para novidades!</h4>
+          <div class="form-sub">
+            <form>
+              <input type="email" placeholder="Digite o seu e-mail" required>
+              <button>inscrever-se</button>
+            </form>
+          </div>
+  
+          <div class="medias-socias">
+            <a href="#"> <i class="fa fa-facebook"></i> </a>
+            <a href="https://www.instagram.com/ohenrique.moura/"> <i class="fa fa-instagram"></i> </a>
+            <a href="https://twitter.com/ohenriquemoura"> <i class="fa fa-twitter"></i> </a>
+            <a href="https://www.linkedin.com/in/henrique-moura-7362a520b/"> <i class="fa fa-linkedin"></i> </a>
+            <a href="https://github.com/ohenriquemoura"> <i class="fa fa-github"></i> </a>
+          </div>
+  
+        </div>
+        <!--end footer col-->
+      </div>
+   
+  
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
