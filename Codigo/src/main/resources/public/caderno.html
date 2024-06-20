@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Code Wizard!</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="pesquise cursos..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+		 <div id="logout-btn" class="fa fa-sign-out"></div>
+		 <div id="send-question-btn" class="fas fa-question-circle" style="display: none;"></div> <!-- Novo botão oculto -->
+      </div>
+
+	  <div class="profile">
+	  	<img src="images/pic-1.jpg" class="image" alt="">
+	  	  <h3 class="name" id="userName">Carregando...</h3>
+	  	  <p class="role" id="userRole">Carregando...</p>
+	  	  <a href="profile.html" class="btn">Ver Perfil</a>
+	          <div class="flex-btn">
+	             <a href="login.html" class="option-btn">login</a>
+	             <a href="register.html" class="option-btn">cadastre-se</a>
+	          </div>
+	       </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+   	  <h3 class="name" id="username">Carregando...</h3>
+   	  <p class="role" id="userrole">Carregando...</p>
+   	  <a href="profile.html" class="btn">Ver Perfil</a>
+      </div>
+   
+      <nav class="navbar">
+           <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+           <a href="login.html"><i class="fas fa-graduation-cap"></i><span>login</span></a>
+        	<a href="quiz2.html"><i class="fa-solid fa-pencil"></i><span>quiz</span></a>
+   		<a href="gallery.html"><i class="fa fa-video-camera"></i><span>vídeos</span></a>
+   		<a href="caderno.html"><i class="fa fa-book"></i><span>caderno</span></a>
+           <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>professores</span></a>
+           <a href="contact.html"><i class="fas fa-headset"></i><span>entre em contato</span></a>
+        </nav>
+</div>
+
+
+
+<form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" id="imageInput" name="image" accept="image/*">
+    <button type="submit" class="btn">Enviar Imagem</button>
+</form>
+<div id="resultText"></div>
+
+
+
+<section class="comments">
+	
+	   <h1 class="heading">Adicionar ao Caderno</h1>
+	
+	   <form action="" class="add-comment">
+	           <h3>Anotações</h3>
+	           <textarea id="comment_box" name="comment_box" placeholder="Escreva suas anotações" required maxlength="1000"></textarea>
+	           <input type="submit" value="Adicionar ao Caderno" class="inline-btn" name="add_comment" id="add_comment">
+			   <h1 class="heading">Caderno</h1>
+			   <textarea id="notebook_box" name="notebook_box" placeholder=" Suas anotações aparecerão aqui..." readonly></textarea>
+	       </form>
+	   
+	       
+	       <script>
+	           document.getElementById('add_comment').addEventListener('click', function(event) {
+	               event.preventDefault();
+	               var comment = document.getElementById('comment_box').value;
+	               document.getElementById('notebook_box').value = comment;
+	           });
+	       </script>
+	   
+	   
+	
+	</section>
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="cadernoscript.js"></script>
+
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
