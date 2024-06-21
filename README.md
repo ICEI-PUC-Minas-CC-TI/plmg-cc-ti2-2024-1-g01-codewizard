@@ -5,9 +5,9 @@ Oferecer uma proposta interativa e divertida de aprendizagem
 ## Alunos integrantes da equipe
 
 * Henrique Moura de Sousa Belo
-* [Nome completo do aluno 2]
-* [Nome completo do aluno 3]
-* [Nome completo do aluno 4]
+* Henrique Fialho
+* Larissa Cássia de Miranda
+* Guilherme Vieira
 
 ## Professores responsáveis
 
