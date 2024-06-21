@@ -1,31 +1,27 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Code Wizard
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Moura de Sousa Belo
+    given-names: Henrique 
+  - family-names: Fialho Cardoso
+    given-names: Henrique
+  - family-names: Henrique Vieira Nascimento 
+    given-names: Guilherme
+  - family-names: Cassia de Miranda
+    given-names: Larissa
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: do Val Machado
+    given-names: Max
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Ferreira de Carvalho
+    given-names: Wallison
 keywords:
-  - 
-  - 
-repository-code: 
+  - Educação
+  - Programação
+repository-code: https://github.com/ICEI-PUC-Minas-CC-TI/plmg-cc-ti2-2024-1-g01-codewizard
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2024-06-21
